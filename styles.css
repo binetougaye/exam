@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("notebook.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #000;
+}
+
+#btn {
+    padding: 5px;
+    margin: 10px;
+    border: 0;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #000;
+    background-color: maroon;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+}
+
+#modal {
+    display: none;
+    background-color: maroon;
+    color: #fff;
+    box-shadow: 0 0 5px #000;
+    border-radius: 10px;
+    width: 400px;
+    height: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+
+.fa {
+    width: 150px;
+}
